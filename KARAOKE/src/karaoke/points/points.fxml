@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="390.0" style="-fx-background-radius: 25; -fx-background-color: rgb(45, 45, 50), rgb(60, 60, 65); -fx-background-insets: 0, 0 1 1 0;" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="karaoke.points.PointsController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="lb1" text="Вы набрали" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="40.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbPoints" text="100" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="80.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbPointsText" text="балл" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</StackPane>
